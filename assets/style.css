@@ -1,10 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+
+h1{
+    font-family: 'Poppins', sans-serif;
+}
+
+h2{
+    font-size: 25px;
+}
 #section1{
     justify-content: center;
     display: block;
     padding-left: 200px;
     background-color: blue;
     color: white;
-    position: static;
 }
 
 .card{
@@ -29,4 +38,10 @@
 }
 span{
     color: blue;
+}
+
+@media(max-width: 500px){
+    body{
+        color: aqua;
+    }
 }
