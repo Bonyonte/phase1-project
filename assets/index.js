@@ -21,9 +21,9 @@ fetch(url)
 			 	  <h4>Review: ${value.review}</h4>
                    <p class="card-text">${value.description}</p>
 			 	  <h4>Source: ${value.source} </h4>
-            //     </div>
-            // </div>
-			// </div>
+                </div>
+             </div>
+			 </div>
 			`
 		})
 
