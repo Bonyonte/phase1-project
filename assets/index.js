@@ -12,8 +12,8 @@ fetch(url)
 		data.map((value) => {
 			html += `
 			 <div class = "col.md-9">
-			// <div class="card">
-            //          <h4 class="title">Title: ${value.title}</h4>
+			 <div class="card">
+                      <h4 class="title">Title: ${value.title}</h4>
             //          <h4 id="author">Author: ${value.author}</h4>
             //     <img class="card-img-top" src="${value.imgUrl}" alt="Card image" style="width:70%">
             //     <div class="card-body">
