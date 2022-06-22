@@ -9,7 +9,6 @@
 
 .card{
     width:400px;
-    height: 350px;
     margin-left: 100px;
     margin-top: 100px;
 }
@@ -17,6 +16,7 @@
 #container{
     display: flex;
     margin-left: 70px;
+    flex-wrap: wrap;
 }
 
 .books{
@@ -26,4 +26,9 @@
 #right{
     margin-top: 100px;
     margin-left: 150px;
+}
+
+#footer{
+    padding-left: 150px;
+    margin-top: 60px;
 }
