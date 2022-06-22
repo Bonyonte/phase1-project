@@ -18,7 +18,7 @@ fetch(url)
                    <img class="card-img-top" src="${value.imgUrl}" alt="Card image" style="width:70%">
                  <div class="card-body">
                    <a href="#" class="btn btn-primary">Price: ${value.price}</a>
-			// 	  <h4>Review: ${value.review}</h4>
+			 	  <h4>Review: ${value.review}</h4>
             //       <p class="card-text">${value.description}</p>
 			// 	  <h4>Source: ${value.source} </h4>
             //     </div>
