@@ -1,8 +1,10 @@
 
 let url = 'http://localhost:3000/Books'
 
-
-
+const comment = document.querySelector('textarea');
+const backUp = comment.getAttribute('placeholder');
+const btn = document.querySelector('btn');
+const clear = document.getElementById('clear')
 fetch(url)
 	.then(response => response.json())
 	.then(data => {
@@ -29,6 +31,21 @@ fetch(url)
 
 		document.getElementById('container').innerHTML = html
 	})
+	comment.onfocus = function(){
+		this.setAttribute('placeholder', '');
+		this.style.borderColor = '#333'
+		btn.style.display = 'block'
+	}
+
+	comment.onblur = function(){
+		this.setAttribute('placeholder', backUp)
+		this.style.borderColor = '#aaa'
+	}
+
+	clear.onclick = function(){
+		btn.style.display = 'none';
+		comment.value = '';
+	}
 
 	.catch((err) = console.log(err))
 	

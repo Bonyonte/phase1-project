@@ -63,6 +63,7 @@ textarea{
     margin-bottom: 15px;
     resize: none;
     outline: none;
+    transition: 5s;
 }
 
 input[type = "submit"], button{
