@@ -75,6 +75,16 @@ input[type = "submit"], button{
     cursor: pointer;
 }
 
+input[type = "submit"]{
+    color: white;
+    background-color: #273c75;
+}
+
+button{
+    color: #333;
+    background-color: transparent;
+}
+
 @media(max-width: 500px){
     body{
         color: aqua;
