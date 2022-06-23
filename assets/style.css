@@ -40,6 +40,15 @@ span{
     color: blue;
 }
 
+#footer{
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    border: 2px solid #333;
+    padding: 15px 10px;
+}
+
+
 @media(max-width: 500px){
     body{
         color: aqua;
