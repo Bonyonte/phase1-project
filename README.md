@@ -56,7 +56,7 @@ Javascript- Which was used to make the page interactive.
 [Go Back to the top](#Bookshelve)
 
 Live Link
--Clink this link to view the live application  [Go Back to the top](#Bookshelve)
+-Clink this link to view the live application https://bonyonte.github.io/phase1-project/ [Go Back to the top](#Bookshelve)
 
 LIcence
 
