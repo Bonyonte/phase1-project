@@ -33,18 +33,20 @@ Features
 As a user of this programm you will be able to :
 
 See different books. 
-See the price, review and description 
-Leave a comment about a certain book(#Bookshelve)
+See the price, review and description. 
+Leave a comment about a certain book(#Bookshelve).
 
 Requirement
 
-Access to a computer 
-Access to internet 
-A VS Code editor Fork to your computer and run JSON SERVER 
+Access to a computer. 
+Access to internet. 
+A VS Code editor Fork to your computer and run JSON SERVER.
 
 Technology Used
 
-HTML - Which was used to develop the structure of the page. CSS - Which was used to style the user interface. Javascript- Which was used to make the page interactive. Go Back to the top
+HTML - Which was used to develop the structure of the page.
+CSS - Which was used to style the user interface. 
+Javascript- Which was used to manipulate the DOM.
 
 Live Link -Clink this link to view the live application https://bonyonte.github.io/phase1-project/ 
 
