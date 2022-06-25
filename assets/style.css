@@ -44,10 +44,11 @@ span{
 #footer{
     justify-content: center;
     align-items: center;
-    width: 600px;
+    width: 1200px;
     border: 2px solid #333;
     padding: 15px 10px;
     margin-left: 200px;
+    margin-top: 40px;
 }
 
 #footer h3{
@@ -77,7 +78,7 @@ input[type = "submit"], button{
     cursor: pointer;
 }
 
-input[type = "submit"]{
+#submit{
     color: white;
     background-color: #273c75;
 }

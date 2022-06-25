@@ -6,7 +6,8 @@ body.parentNode.style.backgroundColor = '#f4f4f4';
 const comment = document.querySelector('textarea');
 const backUp = comment.getAttribute('placeholder');
 const btn = document.querySelector('btn');
-const clear = document.getElementById('clear')
+const clear = document.getElementById('clear');
+const submit = document.getElementById('submit');
 fetch(url)
 	.then(response => response.json())
 	.then(data => {
@@ -53,4 +54,7 @@ fetch(url)
 		alert('You are canceling your comment');
 	}
 	clear.addEventListener('click', alertBtn);
-	
+	 function alertBtn1 (){
+	 	alert('Your comment has been submited');
+	 }
+	submit.addEventListener('click', alertBtn1);
