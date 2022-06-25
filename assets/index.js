@@ -1,8 +1,4 @@
-//console.log(document.all);
-//console.dir(document);
-//document.all[12].textContent = 'hello'
-//var title = document.querySelectorAll('#section1');
-//console.log(title);
+
 let url = 'http://localhost:3000/Books'
 const body = document.querySelector('#body')
 console.log(body.parentNode);
