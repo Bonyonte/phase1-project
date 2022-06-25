@@ -1,6 +1,12 @@
-
+//console.log(document.all);
+//console.dir(document);
+//document.all[12].textContent = 'hello'
+//var title = document.querySelectorAll('#section1');
+//console.log(title);
 let url = 'http://localhost:3000/Books'
-
+const body = document.querySelector('#body')
+console.log(body.parentNode);
+body.parentNode.style.backgroundColor = '#f4f4f4';
 const comment = document.querySelector('textarea');
 const backUp = comment.getAttribute('placeholder');
 const btn = document.querySelector('btn');
@@ -19,7 +25,7 @@ fetch(url)
                       <h4 id="author"><span>Author</span>: ${value.author}</h4>
                    <img class="card-img-top" src="${value.imgUrl}" alt="Card image" style="width:90%">
                  <div class="card-body">
-                   <a href="#" class="btn btn-primary">Price: ${value.price}</a>
+                   <h4><span>Price: ${value.price}</span></h4>
 			 	  <h4><span>Review</span>: ${value.review}</h4>
                    <p class="card-text">${value.description}</p>
 			 	  <h4><span>Source</span>: ${value.source} </h4>
@@ -47,5 +53,8 @@ fetch(url)
 		comment.value = '';
 	}
 
-	.catch((err) = console.log(err))
+	function alertBtn (){
+		alert('You are canceling your comment');
+	}
+	clear.addEventListener('click', alertBtn);
 	
