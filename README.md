@@ -33,7 +33,9 @@ See different books. See the price, review and description Leave a comment about
 
 Requirement
 
-Access to a computer Access to internet A VS Code editor Fork to your computer and run JSON SERVER Go Back to the top
+Access to a computer 
+Access to internet A VS Code editor 
+Clone to your computer and run JSON SERVER Go Back to the top
 
 Technology Used
 
